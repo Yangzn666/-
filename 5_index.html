@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>毛概导论选择题（后有多选）</title>
+    <link rel="stylesheet" href="timu.css">
+</head>
+<body>
+    <!-- 页面顶部标题 -->
+    <header class="header">
+        <h1>毛概导论选择题（后有多选）</h1>
+    </header>
+
+    <!-- 答题统计信息栏 -->
+    <div class="stats-bar">
+        <p>已回答题目： <span id="answered-count">0</span></p>
+        <p>总得分： <span id="score">0</span></p>
+        <p>正确率： <span id="accuracy">0%</span></p>
+    </div>
+
+    <!-- 题目容器 -->
+    <div class="quiz-container" id="quiz-container"></div>
+
+    <!-- 提交按钮 -->
+    <button id="submit-button">提交</button>
+
+    <script src="daolun.json" type="application/json"></script>
+    <script src="timu.js"></script>
+</body>
+</html>
